@@ -76,10 +76,10 @@ if (isset($_POST["submit"])) {
   </div>
 </header>
 
+<div class="w3-center">
     <div class="demo-content">
         <form action="" method="POST"
             onsubmit="return loginvalidation();">
-
 
             <div class="row">
                 <label>Username</label> <span id="user_error"></span>
@@ -99,12 +99,14 @@ if (isset($_POST["submit"])) {
 
                 </div>
             </div>
+
             <div class="row">
                 <div>
                     <button type="submit" name="submit"
                         class="btn login">Login</button>
                 </div>
             </div>
+
             <div class="row">
                 <div>
                     <a href="register.php"><button type="button"name="submit" class="btn signup">Signup</button></a>
@@ -112,6 +114,7 @@ if (isset($_POST["submit"])) {
             </div>
         </form>
     </div>
+</div>
 
     <!-- Footer -->
 <footer class="w3-container w3-theme-dark w3-padding-16">
